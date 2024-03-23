@@ -6,7 +6,7 @@ import burgerImg from "@/assets/img/burger.svg";
 import { Popover, Transition } from "@headlessui/react";
 
 export const Header: FC = () => {
-  const { headerNav, playNowLinkUrl } = config;
+  const { headerNav, playNowLinkUrl, airdropLinkUrl } = config;
   return (
     <header className="absolute left-0 top-0 z-50 min-h-[146px] w-full">
       <div className="mx-auto max-w-[1372px] px-4">
@@ -14,7 +14,7 @@ export const Header: FC = () => {
           <ul className="hidden flex-[0_1_50%] flex-wrap justify-between gap-4 lg:flex">
             {headerNav.slice(0, 4).map((link, index) => (
               <li key={index}>
-                <a className="hover:text-teal whitespace-nowrap transition" href={link.linkUrl}>
+                <a className="whitespace-nowrap transition hover:text-teal" href={link.linkUrl}>
                   {link.linkLabel}
                 </a>
               </li>
@@ -26,7 +26,7 @@ export const Header: FC = () => {
           <ul className="hidden flex-[0_1_50%] items-center justify-between gap-4 lg:flex">
             {headerNav.slice(-2).map((link, index) => (
               <li key={index}>
-                <a className="hover:text-teal whitespace-nowrap transition" href={link.linkUrl}>
+                <a className="whitespace-nowrap transition hover:text-teal" href={link.linkUrl}>
                   {link.linkLabel}
                 </a>
               </li>
@@ -59,7 +59,7 @@ export const Header: FC = () => {
                   as={Fragment}
                 >
                   <Popover.Panel className="absolute right-0 z-[90] mt-10 transform">
-                    <div className="border-teal bg-teal/80 rounded-xl border-4 p-3 shadow-lg">
+                    <div className="rounded-xl border-4 border-teal bg-teal/80 p-3 shadow-lg">
                       <ul className="flex flex-col">
                         {headerNav.map((link, index) => (
                           <li key={index}>
@@ -81,6 +81,14 @@ export const Header: FC = () => {
                             target="_blank"
                           >
                             <span className="text-shadow text-[28px]">PLAY NOW</span>
+                          </a>
+                          <a
+                            className="text-shadow pointer-events-none mt-2 inline-flex h-[71px] w-[195px] shrink-0 items-center justify-center bg-[url('./assets/img/button-purple-bg.png')] bg-cover bg-center bg-no-repeat text-[20px] opacity-50 transition-transform hover:scale-[0.9]"
+                            href={airdropLinkUrl}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            <span className="text-shadow text-[28px]">AIRDROP</span>
                           </a>
                         </li>
                       </ul>

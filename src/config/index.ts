@@ -7,7 +7,8 @@ export const config = {
   markerplaceLinkUrl: "",
   airdropLinkUrl: "",
   phantomWalletLinkUrl: "https://phantom.app/",
-  raydiumLinkUrl: "https://raydium.io/swap/",
+  raydiumLinkUrl:
+    "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6zmrmNUGdRwrqcchshVkBgAyLhLwZ7QvJRQiKktqVQLV&fixed=in",
   stakeTime: 1711962000000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
   airdropTime: 1712394000000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
   nftTime: 1712394000000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
@@ -32,9 +33,9 @@ export const config = {
     { linkLabel: "Cookie Policy", linkUrl: "" },
   ],
   socials: [
-    { socialName: "X", linkUrl: "", iconUrl: "/socials/x.svg" },
+    { socialName: "X", linkUrl: "https://twitter.com/PEPEUWUCUTE", iconUrl: "/socials/x.svg" },
     { socialName: "YouTube", linkUrl: "", iconUrl: "/socials/youtube.svg" },
-    { socialName: "Telegram", linkUrl: "", iconUrl: "/socials/telegram.svg" },
+    { socialName: "Telegram", linkUrl: "https://t.me/PEPEUWUCUTE", iconUrl: "/socials/telegram.svg" },
     { socialName: "GitHub", linkUrl: "", iconUrl: "/socials/github.svg" },
     { socialName: "facebook", linkUrl: "", iconUrl: "/socials/facebook.svg" },
   ],
