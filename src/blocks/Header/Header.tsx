@@ -74,7 +74,7 @@ export const Header: FC = () => {
                         ))}
                         <li>
                           <a
-                            className="inline-flex h-[71px] w-[195px] items-center justify-center whitespace-nowrap bg-[url('./assets/img/button-purple-bg.png')] bg-cover bg-center bg-no-repeat transition-transform hover:scale-[0.9]"
+                            className="pointer-events-none inline-flex h-[71px] w-[195px] items-center justify-center whitespace-nowrap bg-[url('./assets/img/button-purple-bg.png')] bg-cover bg-center bg-no-repeat opacity-50 transition-transform hover:scale-[0.9]"
                             onClick={() => close()}
                             href={playNowLinkUrl}
                             rel="noreferrer"
