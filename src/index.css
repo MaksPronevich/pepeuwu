@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Amazing Views";
+    font-display: swap;
+    font-weight: 400;
+    src:
+      url("/fonts/AmazingViews-Regular.woff2") format("woff2"),
+      url("/fonts/AmazingViews-Regular.woff") format("woff");
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Jua";
+    font-display: swap;
+    font-weight: 400;
+    src:
+      url("/fonts/Jua-Regular.woff2") format("woff2"),
+      url("/fonts/Jua-Regular.woff") format("woff");
+    font-style: normal;
+  }
+
+  .text-shadow {
+    text-shadow:
+      -2px -2px 0 #441948,
+      0 -2px 0 #441948,
+      2px -2px 0 #441948,
+      2px 0 0 #441948,
+      2px 2px 0 #441948,
+      0 2px 0 #441948,
+      -2px 2px 0 #441948,
+      -2px 0 0 #441948;
+  }
+
+  .text-shadow-md {
+    text-shadow:
+      -3px -3px 0 #441948,
+      0 -3px 0 #441948,
+      3px -3px 0 #441948,
+      3px 0 0 #441948,
+      3px 3px 0 #441948,
+      0 3px 0 #441948,
+      -3px 3px 0 #441948,
+      -3px 0 0 #441948;
+  }
+}
