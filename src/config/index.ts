@@ -1,15 +1,17 @@
 export const config = {
-  tokenAddress: "0xf3b9569F82B18aEf890Ar263B84189bd33EBe457",
+  tokenAddress: "6zmrmNUGdRwrqcchshVkBgAyLhLwZ7QvJRQiKktqVQLV",
   playNowLinkUrl: "",
-  dextoolsLinkUrl: "",
+  dextoolsLinkUrl: "https://www.dextools.io/app/en/solana/pair-explorer/Dxh6fg4QCrLNGANTCngG4TRGF8jtbX1nKZTU3qF3DA3E",
   googlePlayLinkUrl: "",
   appStoreLinkUrl: "",
   markerplaceLinkUrl: "",
+  airdropLinkUrl: "",
   phantomWalletLinkUrl: "https://phantom.app/",
   raydiumLinkUrl: "https://raydium.io/swap/",
-  stakeTime: 1711585820000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
-  airdropTime: 1711585820000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
-  gamePlayDisabledTime: 1711585820000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
+  stakeTime: 1711962000000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
+  airdropTime: 1712394000000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
+  nftTime: 1712394000000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
+  gamePlayDisabledTime: 1711616400000, // Support:  '2020-02-01T01:02:03' - Date time string format,  1580518923000 - Timestamp in milliseconds, new Date(1580518923000) // Date object
   headerNav: [
     { linkLabel: "Game", linkUrl: "#game" },
     { linkLabel: "Stake", linkUrl: "#stake" },

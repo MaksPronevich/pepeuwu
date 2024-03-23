@@ -14,9 +14,9 @@ export const Stake: FC = () => {
             <img className="absolute inset-0 object-contain" src={stakeImg} alt="Stake" />
           </div>
           <div className="lg:flex-[0_1_660px]">
-            <h2 className="font-amazing text-shadow-md mb-5 text-[36px] leading-[120%] md:text-[64px]">STAKE</h2>
-            <div className="bg-purple-light border-violet rounded-2xl border-4 p-3 md:p-6 ">
-              <div className="border-violet relative w-full overflow-hidden rounded-xl border-4 pb-[58%]">
+            <h2 className="text-shadow-md mb-5 font-amazing text-[36px] leading-[120%] md:text-[64px]">STAKE</h2>
+            <div className="rounded-2xl border-4 border-violet bg-purple-light p-3 md:p-6 ">
+              <div className="relative w-full overflow-hidden rounded-xl border-4 border-violet pb-[58%]">
                 <video
                   className="absolute left-0 top-0 h-full w-full object-cover"
                   src={video}
@@ -29,8 +29,8 @@ export const Stake: FC = () => {
               </div>
             </div>
             <p className="py-9 md:text-xl">
-              Stake your cute tokens and receive cute points. Spend cute points in the game to become the very best
-              cutie.
+              Stake your cute tokens, earn more $CUTE and receive cute points. Spend cute points in the game to become
+              the very best cutie.
             </p>
             <Timer time={stakeTime} />
           </div>
